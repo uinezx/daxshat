@@ -1,0 +1,73 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background-color: #f9f9f9;
+}
+
+/* Yashil toolbar qismi */
+.toolbar {
+  background-color: #00b050;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.toolbar .logo {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.toolbar-actions button,
+.toolbar-actions select,
+.toolbar-actions span {
+  margin-left: 8px;
+  font-size: 14px;
+  background: white;
+  color: black;
+  border: none;
+  padding: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.toolbar-actions button:hover {
+  background-color: #ddd;
+}
+
+/* Jadval qismi */
+table.main-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  background-color: white;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+}
+
+th,
+td {
+  border: 1px solid #000;
+  padding: 10px;
+  vertical-align: top;
+  text-align: left;
+}
+
+.css-box {
+  background-color: blue;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 22px;
+  padding: 15px;
+}
+
+.empty-cell {
+  border: none;
+}
+
+.header-row {
+  background-color: #e0e0e0;
+  font-weight: bold;
+}
+
